@@ -4,7 +4,7 @@ ThinnUI AI is an AI-powered UI generation project that converts prompts into gro
 
 ## What is implemented now
 
-This repository now includes an **MVP pipeline prototype** that runs end-to-end:
+This repository includes an MVP pipeline prototype with both CLI and HTTP interfaces:
 
 1. Parse prompt into sections and detect theme.
 2. Retrieve ranked components from a seeded local registry.
@@ -18,7 +18,26 @@ This repository now includes an **MVP pipeline prototype** that runs end-to-end:
 python -m app.main "Create a dark SaaS landing page with hero pricing testimonials" --output demo.zip
 ```
 
-The command prints a JSON summary and writes the zip file to the output path.
+## Run locally (HTTP API)
+
+```bash
+python -m app.server
+```
+
+Available endpoints:
+
+- `GET /health`
+- `POST /api/generate`
+- `GET /api/export/{export_id}`
+
+Generate request example:
+
+```json
+{
+  "prompt": "Create a dark SaaS landing page with hero, pricing, testimonials",
+  "theme": "dark"
+}
+```
 
 ## Tests
 
