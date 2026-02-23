@@ -1,0 +1,42 @@
+[
+  {
+    "id": "hero-dark-startup",
+    "name": "Dark SaaS Hero",
+    "section": "hero",
+    "description": "Dark hero section with headline, subtext and CTA",
+    "tags": ["dark", "saas", "cta", "hero"],
+    "source": "21st.dev"
+  },
+  {
+    "id": "features-grid-icons",
+    "name": "Features Grid",
+    "section": "features",
+    "description": "Three-column features grid with icon and copy",
+    "tags": ["features", "grid", "marketing"],
+    "source": "21st.dev"
+  },
+  {
+    "id": "pricing-cards-simple",
+    "name": "Pricing Cards",
+    "section": "pricing",
+    "description": "Simple tiered pricing cards with highlighted pro plan",
+    "tags": ["pricing", "cards", "plans"],
+    "source": "21st.dev"
+  },
+  {
+    "id": "testimonials-marquee",
+    "name": "Testimonials Marquee",
+    "section": "testimonials",
+    "description": "Customer testimonials in responsive cards",
+    "tags": ["testimonials", "social-proof", "quotes"],
+    "source": "21st.dev"
+  },
+  {
+    "id": "footer-links-minimal",
+    "name": "Minimal Footer",
+    "section": "footer",
+    "description": "Footer with product links and copyright",
+    "tags": ["footer", "links", "legal"],
+    "source": "21st.dev"
+  }
+]
